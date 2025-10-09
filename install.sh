@@ -121,7 +121,9 @@ if [ -e /root/pterodactyl ]; then
     sudo rm -rf /root/pterodactyl
   fi
   wget -q "$THEME_URL"
-  sudo unzip -o "$(basename "$THEME_URL")"
+  # Membuat direktori tujuan dan mengekstrak file ke dalamnya
+  sudo mkdir -p /root/pterodactyl
+  sudo unzip -o "$(basename "$THEME_URL")" -d /root/pterodactyl
   
 if [ "$SELECT_THEME" -eq 1 ]; then
   echo -e "                                                       "
