@@ -18,7 +18,7 @@ bash <(curl -s https://raw.githubusercontent.com/SankaVollereii/Thema-Pterodacty
 - Install Tema Plana
 - Uninstall Tema
 
- (Kode Token : s*****)
+ (Kode Token : sanka)
 
 ## System Support :
 
