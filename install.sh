@@ -93,7 +93,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/SankaVollereii/Thema-Pterodactyl/raw/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Thema-Pterodactyl/raw/main/stellar.zip")        
         break
         ;;
       2)
@@ -101,11 +101,11 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/SankaVollereii/Thema-Pterodactyl/raw/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Thema-Pterodactyl/raw/main/enigma.zip")
         break
         ;; 
       4)
-        THEME_URL=$(echo -e "https://github.com/SankaVollereii/Thema-Pterodactyl/raw/main/plana.zip")
+        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Thema-Pterodactyl/raw/main/plana.zip")
         break
         ;; 
       x)
