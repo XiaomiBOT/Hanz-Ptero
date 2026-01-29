@@ -93,19 +93,19 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Thema-Pterodactyl/raw/main/stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Hanz-Ptero/raw/main/stellar.zip")        
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/SankaVollereii/Thema-Pterodactyl/raw/main/billing.zip")
+        THEME_URL=$(echo -e "https://github.com/SankaVollereii/Hanz-Ptero/raw/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Thema-Pterodactyl/raw/main/enigma.zip")
+        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Hanz-Ptero/raw/main/enigma.zip")
         break
         ;; 
       4)
-        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Thema-Pterodactyl/raw/main/plana.zip")
+        THEME_URL=$(echo -e "https://github.com/XiaomiBOT/Hanz-Ptero/raw/main/plana.zip")
         break
         ;; 
       x)
@@ -497,11 +497,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Sanka Vollerei   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer HanzPedia   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : OnlySankaaa      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Credit  : Sanka Vollerei  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by SankaVollerei  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : OnlyHanz      ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Credit  : HanzPedia  ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by HanzPedia  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
